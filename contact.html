@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+  <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:bg-gray-50" href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:bg-gray-50" href="#">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:bg-gray-50" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+<form class="max-w-sm mx-auto mt-7">
+  <div class="mb-5">
+    <label for="email" class="block mb-2.5 text-sm font-medium text-heading">Your email</label>
+    <input type="email" id="email" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="abc@abc.com" required />
+  </div>
+  <div class="mb-5">
+    <label for="password" class="block mb-2.5 text-sm font-medium text-heading">Your password</label>
+    <input type="password" id="password" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="••••••••" required />
+  </div>
+  <label for="remember" class="flex items-center mb-5">
+    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft" required />
+    <p class="ms-2 text-sm font-medium text-heading select-none">I agree with the <a href="#" class="text-fg-brand hover:underline">terms and conditions</a>.</p>
+  </label>
+  <button type="submit" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
+</form>
+
+    <section class="bg-green-100 p-10 text-justify">
+    <h1 class="font-bold text-4xl">Greeny</h1>
+    <br>
+    <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest.</p>
+    <br>
+    <p>©2021 Greenday.com</p>
+</section>
+</body>
+</html>
